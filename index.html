@@ -778,7 +778,7 @@ function endGame() {
   if (score > best) best = score;
   bestEl.textContent = best.toLocaleString();
 
-  if (score >= 1000) {
+  if (score >= 100) {
     // 🎉 쿠폰 팝업
     document.getElementById('coupon-final-score').textContent = score.toLocaleString();
     document.getElementById('coupon-overlay').classList.remove('hidden');
